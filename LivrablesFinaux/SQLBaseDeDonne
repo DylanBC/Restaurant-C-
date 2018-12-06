@@ -8,7 +8,7 @@ CREATE DATABASE restaurant;
 # Table: Table
 #------------------------------------------------------------
 
-CREATE TABLE Table(
+CREATE TABLE TableRonde(
         ID_Table      Int  Auto_increment  NOT NULL ,
         Numero_Table  Int NOT NULL ,
         Nbr_Place     Int NOT NULL ,
