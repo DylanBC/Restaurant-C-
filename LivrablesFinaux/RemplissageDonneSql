@@ -61,3 +61,23 @@ Insert into materiel(Type_Materiel,Propre)values
 ("Tamis",True),
 ("Entonnoirs",True),
 ("Couteaux de cuisine",True);
+
+insert into aliment(Nom_Aliment,Type_Aliment,Date_Consommation,Etat_Aliment,Quantite_Aliment,ID_Stockage)values
+("Tomate","Frais",3,TRUE,150,2),
+("Spaghetti","Denrée",365,TRUE,15,3),
+("Haricot","Congele",30,TRUE,20,1),
+("Banane","Frais",3,TRUE,40,2),
+("Fraise","Frais",3,TRUE,35,2),
+("Boeuf","Congele",30,TRUE,10,1),
+("Semoule","Denrée",365,TRUE,15,3),
+("Jambon","Frais",3,TRUE,10,1),
+("Farine","Denrée",365,TRUE,40,3),
+("Oignon","Denrée",365,TRUE,70,3),
+("Pomme","Frais",3,TRUE,35,2),
+("Pate plate","Denrée",365,TRUE,20,3),
+("Viande hache,"Congele",30,TRUE,20,1),
+("Ail","Denrée",365,TRUE,70,3),
+("Epinard","Congele",30,TRUE,20,1);
+
+
+
